@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Fujiwara Creative adalah startup kreatif yang menawarkan solusi digital berupa pembuatan website dan aplikasi dengan harga terjangkau dan tim berpengalaman."
+    />
+    <meta
+      name="keywords"
+      content="pembuatan website, aplikasi, solusi digital, pengembangan web, desain aplikasi"
+    />
+    <meta name="author" content="Fujiwara Creative" />
+    <meta
+      property="og:title"
+      content="Fujiwara Creative - Solusi Digital untuk Bisnis Anda"
+    />
+    <meta
+      property="og:description"
+      content="Kami menyediakan layanan pembuatan website dan aplikasi dengan harga terjangkau, tim berpengalaman, serta harga yang dapat dinegosiasikan."
+    />
+    <meta property="og:image" content="URL_GAMBAR_THUMBNAIL" />
+    <meta property="og:url" content="URL_WEBSITE" />
+    <meta
+      name="twitter:title"
+      content="Fujiwara Creative - Solusi Digital untuk Bisnis Anda"
+    />
+    <meta
+      name="twitter:description"
+      content="Layanan pembuatan website dan aplikasi dengan harga terjangkau dan fleksibel."
+    />
+    <meta name="twitter:image" content="URL_GAMBAR_THUMBNAIL" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <title>Fujiwara Creative</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body class="bg-gray-100">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md fixed w-full z-50">
+      <div class="container mx-auto px-4">
+        <div class="flex justify-between items-center h-16">
+          <!-- Logo -->
+          <div class="flex items-center">
+            <img
+              src="./assets/img/logo/logo.png"
+              alt="Logo Fujiwara Creative"
+              class="h-10 w-10 mr-2"
+            />
+            <a href="#" class="text-2xl font-bold text-gray-800 hidden lg:block"
+              >Fujiwara Creative</a
+            >
+            <a href="#" class="text-2xl font-bold text-gray-800 block lg:hidden"
+              >FC</a
+            >
+          </div>
+
+          <!-- Menu Items -->
+          <div class="hidden md:flex space-x-6">
+            <a href="#" class="text-gray-600 hover:text-gray-900 transition"
+              >Home</a
+            >
+            <a
+              href="#about"
+              class="text-gray-600 hover:text-gray-900 transition"
+              >Tentang</a
+            >
+            <a
+              href="#services"
+              class="text-gray-600 hover:text-gray-900 transition"
+              >Layanan</a
+            >
+            <a
+              href="#portfolio"
+              class="text-gray-600 hover:text-gray-900 transition"
+              >Portofolio</a
+            >
+            <a
+              href="#contact"
+              class="text-gray-600 hover:text-gray-900 transition"
+              >Kontak</a
+            >
+          </div>
+
+          <!-- Mobile Menu Button -->
+          <div class="md:hidden">
+            <button id="menu-toggle" class="text-gray-600 focus:outline-none">
+              <svg
+                class="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16m-7 6h7"
+                ></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div
+        id="mobile-menu"
+        class="hidden md:hidden bg-white border-t border-gray-200"
+      >
+        <a href="#" class="block px-4 py-2 text-gray-600 hover:bg-gray-100"
+          >Home</a
+        >
+        <a href="#about" class="block px-4 py-2 text-gray-600 hover:bg-gray-100"
+          >Tentang</a
+        >
+        <a
+          href="#services"
+          class="block px-4 py-2 text-gray-600 hover:bg-gray-100"
+          >Layanan</a
+        >
+        <a
+          href="#portfolio"
+          class="block px-4 py-2 text-gray-600 hover:bg-gray-100"
+          >Portofolio</a
+        >
+        <a
+          href="#contact"
+          class="block px-4 py-2 text-gray-600 hover:bg-gray-100"
+          >Kontak</a
+        >
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section
+      class="relative w-full h-screen bg-cover bg-center"
+      style="background-image: url('./assets/img/logo/bg.png')"
+      alt="Gambar Latar Fujiwara Creative Website"
+    >
+      <div class="absolute inset-0 bg-black opacity-75"></div>
+      <div class="relative z-10 flex items-center justify-center w-full h-full">
+        <div class="text-center text-white px-4 md:px-8">
+          <h1 class="text-5xl md:text-6xl font-bold mb-4">
+            Menyusun Masa Depan Digital Anda
+          </h1>
+          <p class="text-lg md:text-xl mb-6">
+            Membangun Website & Aplikasi, Solusi kreatif dan teknologi terkini
+            untuk mendukung pertumbuhan bisnis Anda secara digital.
+          </p>
+          <a
+            href="#contact"
+            class="bg-gray-500 text-white py-3 px-6 rounded-lg text-lg font-semibold transition hover:bg-gray-700"
+          >
+            Kontak Kami
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-gray-50">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <h2 class="text-4xl font-semibold text-gray-800 mb-4">
+            Tentang Kami
+          </h2>
+          <p class="text-lg text-gray-600">
+            Fujiwara Creative adalah solusi digital terpercaya yang
+            menggabungkan pengalaman, kualitas, dan harga yang kompetitif. Kami
+            hadir untuk membantu bisnis Anda berkembang di dunia digital.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Experienced Team -->
+          <div class="text-center bg-white p-6 shadow-lg rounded-lg">
+            <div class="mb-2">
+              <i class="fas text-5xl fa-users text-blue-600 mx-auto"></i>
+            </div>
+            <h3 class="text-2xl font-semibold text-gray-800 mb-2">
+              Tim Berpengalaman
+            </h3>
+            <p class="text-gray-600">
+              Pengerjaan proyek kami dikerjakan oleh profesional berpengalaman
+              yang memiliki keahlian mendalam di bidang pengembangan website dan
+              aplikasi.
+            </p>
+          </div>
+
+          <!-- Affordable Pricing -->
+          <div class="text-center bg-white p-6 shadow-lg rounded-lg">
+            <div class="mb-2">
+              <i class="fas text-5xl fa-dollar-sign text-green-600 mx-auto"></i>
+            </div>
+            <h3 class="text-2xl font-semibold text-gray-800 mb-2">
+              Harga Terjangkau
+            </h3>
+            <p class="text-gray-600">
+              Kami menawarkan layanan dengan harga yang terjangkau tanpa
+              mengorbankan kualitas, memberikan nilai lebih untuk setiap
+              investasi Anda.
+            </p>
+          </div>
+
+          <!-- Negotiable Pricing -->
+          <div class="text-center bg-white p-6 shadow-lg rounded-lg">
+            <div class="mb-2">
+              <i class="fas text-5xl fa-handshake text-yellow-600 mx-auto"></i>
+            </div>
+            <h3 class="text-2xl font-semibold text-gray-800 mb-2">
+              Fleksibel dan Bisa Negosiasi
+            </h3>
+            <p class="text-gray-600">
+              Kami memahami bahwa setiap proyek memiliki kebutuhan unik. Oleh
+              karena itu, kami menyediakan opsi harga yang fleksibel dan dapat
+              dinegosiasikan sesuai anggaran Anda.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Struktur Organisasi Section -->
+    <section id="struktur-organisasi" class="py-16 bg-gray-100">
+      <div class="container mx-auto text-center struktur-organisasi">
+        <h2 class="text-3xl font-bold text-gray-800 mb-10">
+          Struktur Organisasi
+        </h2>
+
+        <div
+          class="flex flex-col lg:flex-row lg:justify-center lg:space-x-6 mb-6"
+        >
+          <!-- CEO -->
+          <div class="bg-white py-6 px-32 rounded-lg shadow-lg">
+            <img
+              src="./assets/img/struktur-organisasi/damar.jpg"
+              alt="CEO"
+              class="w-32 h-32 mx-auto rounded-full mb-4"
+            />
+            <h3 class="text-xl font-semibold text-gray-700">Dhamar Putra</h3>
+            <p class="text-gray-500">Founder & CEO</p>
+          </div>
+
+          <!-- Manager -->
+          <div class="bg-white py-6 px-32 rounded-lg shadow-lg">
+            <img
+              src="./assets/img/struktur-organisasi/damar.jpg"
+              alt="Manager"
+              class="w-32 h-32 mx-auto rounded-full mb-4"
+            />
+            <h3 class="text-xl font-semibold text-gray-700">Muchtar Ali</h3>
+            <p class="text-gray-500">Founder & CEO</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 bg-gray-50">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <h2 class="text-4xl font-semibold text-gray-800 mb-4">
+            Layanan Kami
+          </h2>
+          <p class="text-lg text-gray-600">
+            Kami menawarkan berbagai layanan untuk memenuhi kebutuhan digital
+            Anda, dari pembuatan website hingga solusi DevOps yang efisien dan
+            terkelola dengan baik.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Frontend Development -->
+          <div class="bg-white p-6 shadow-lg rounded-lg text-center">
+            <div class="mb-4">
+              <i class="fas fa-laptop-code text-5xl text-blue-600"></i>
+            </div>
+            <h3 class="text-2xl font-semibold text-gray-800 mb-2">
+              Frontend Development
+            </h3>
+            <p class="text-gray-600">
+              Mengembangkan antarmuka pengguna yang responsif dan menarik dengan
+              teknologi modern seperti HTML, CSS, dan JavaScript.
+            </p>
+          </div>
+
+          <!-- Backend Development -->
+          <div class="bg-white p-6 shadow-lg rounded-lg text-center">
+            <div class="mb-4">
+              <i class="fas fa-server text-5xl text-green-600"></i>
+            </div>
+            <h3 class="text-2xl font-semibold text-gray-800 mb-2">
+              Backend Development
+            </h3>
+            <p class="text-gray-600">
+              Membangun arsitektur backend yang stabil, efisien, dan scalable
+              dengan menggunakan bahasa pemrograman seperti Node.js, Python,
+              atau PHP.
+            </p>
+          </div>
+
+          <!-- Fullstack Development -->
+          <div class="bg-white p-6 shadow-lg rounded-lg text-center">
+            <div class="mb-4">
+              <i class="fas fa-code-branch text-5xl text-purple-600"></i>
+            </div>
+            <h3 class="text-2xl font-semibold text-gray-800 mb-2">
+              Fullstack Development
+            </h3>
+            <p class="text-gray-600">
+              Pengembangan aplikasi lengkap dari frontend hingga backend,
+              memberikan solusi end-to-end untuk kebutuhan digital Anda.
+            </p>
+          </div>
+
+          <!-- UI/UX Design -->
+          <div class="bg-white p-6 shadow-lg rounded-lg text-center">
+            <div class="mb-4">
+              <i class="fas fa-paint-brush text-5xl text-yellow-600"></i>
+            </div>
+            <h3 class="text-2xl font-semibold text-gray-800 mb-2">
+              UI/UX Design
+            </h3>
+            <p class="text-gray-600">
+              Mendesain antarmuka yang intuitif dan menarik serta pengalaman
+              pengguna yang memuaskan untuk meningkatkan konversi dan kepuasan
+              pengguna.
+            </p>
+          </div>
+
+          <!-- DevOps -->
+          <div class="bg-white p-6 shadow-lg rounded-lg text-center">
+            <div class="mb-4">
+              <i class="fas fa-cogs text-5xl text-red-600"></i>
+            </div>
+            <h3 class="text-2xl font-semibold text-gray-800 mb-2">DevOps</h3>
+            <p class="text-gray-600">
+              Menyediakan solusi DevOps untuk pengelolaan infrastruktur yang
+              efisien dan otomatisasi proses pengembangan dan deployment
+              aplikasi.
+            </p>
+          </div>
+
+          <!-- Mobile Development -->
+          <div class="bg-white p-6 shadow-lg rounded-lg text-center">
+            <div class="mb-4">
+              <i class="fas fa-mobile-alt text-5xl text-indigo-600"></i>
+            </div>
+            <h3 class="text-2xl font-semibold text-gray-800 mb-2">
+              Mobile Development
+            </h3>
+            <p class="text-gray-600">
+              Mengembangkan aplikasi mobile yang dapat diakses di berbagai
+              platform, baik Android maupun iOS, untuk memberikan pengalaman
+              pengguna yang luar biasa.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-16 bg-gray-100">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <h2 class="text-4xl font-semibold text-gray-800 mb-4">
+            Portofolio Kami
+          </h2>
+          <p class="text-lg text-gray-600">
+            Kami bangga dapat bekerja dengan berbagai klien untuk menciptakan
+            solusi digital yang bermanfaat. Berikut adalah beberapa proyek yang
+            telah kami selesaikan.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Project 1 -->
+          <div class="bg-white p-6 shadow-lg rounded-lg">
+            <img
+              src="./assets/img/portofolio/sope.png"
+              alt="Project 1"
+              class="w-full h-64 object-cover rounded-lg mb-4"
+            />
+            <h3 class="text-2xl font-semibold text-gray-800 mb-2">
+              Website E-Commerce
+            </h3>
+            <p class="text-gray-600 mb-4">
+              Pengembangan website e-commerce yang responsif dengan integrasi
+              sistem pembayaran yang aman dan user-friendly.
+            </p>
+            <a href="#" class="text-blue-500 hover:underline">Lihat Proyek</a>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="bg-white p-6 shadow-lg rounded-lg">
+            <img
+              src="./assets/img/portofolio/saloot.png"
+              alt="Project 2"
+              class="w-full h-64 object-cover rounded-lg mb-4"
+            />
+            <h3 class="text-2xl font-semibold text-gray-800 mb-2">
+              Aplikasi Mobile
+            </h3>
+            <p class="text-gray-600 mb-4">
+              Pengembangan aplikasi mobile untuk Android dan iOS, memberikan
+              pengalaman pengguna yang luar biasa dalam berbagai platform.
+            </p>
+            <a href="#" class="text-blue-500 hover:underline">Lihat Proyek</a>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="bg-white p-6 shadow-lg rounded-lg">
+            <img
+              src="./assets/img/portofolio/tokokertas.png"
+              alt="Project 3"
+              class="w-full h-64 object-cover rounded-lg mb-4"
+            />
+            <h3 class="text-2xl font-semibold text-gray-800 mb-2">
+              Sistem Manajemen
+            </h3>
+            <p class="text-gray-600 mb-4">
+              Membangun sistem manajemen internal untuk perusahaan dengan
+              berbagai fitur untuk memudahkan operasional bisnis.
+            </p>
+            <a href="#" class="text-blue-500 hover:underline">Lihat Proyek</a>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="bg-white p-6 shadow-lg rounded-lg">
+            <img
+              src="./assets/img/portofolio/bengkel.png"
+              alt="Project 4"
+              class="w-full h-64 object-cover rounded-lg mb-4"
+            />
+            <h3 class="text-2xl font-semibold text-gray-800 mb-2">
+              Website Perusahaan
+            </h3>
+            <p class="text-gray-600 mb-4">
+              Pengembangan website perusahaan dengan desain modern dan
+              fungsionalitas yang lengkap untuk mendukung bisnis dan branding.
+            </p>
+            <a href="#" class="text-blue-500 hover:underline">Lihat Proyek</a>
+          </div>
+
+          <!-- Project 5 -->
+          <div class="bg-white p-6 shadow-lg rounded-lg">
+            <img
+              src="./assets/img/portofolio/adminlogistik.png"
+              alt="Project 5"
+              class="w-full h-64 object-cover rounded-lg mb-4"
+            />
+            <h3 class="text-2xl font-semibold text-gray-800 mb-2">
+              Aplikasi Enterprise
+            </h3>
+            <p class="text-gray-600 mb-4">
+              Pembuatan aplikasi untuk kebutuhan bisnis skala besar,
+              mengoptimalkan manajemen internal dan operasional dengan sistem
+              terintegrasi.
+            </p>
+            <a href="#" class="text-blue-500 hover:underline">Lihat Proyek</a>
+          </div>
+
+          <!-- Project 6 -->
+          <div class="bg-white p-6 shadow-lg rounded-lg">
+            <img
+              src="./assets/img/portofolio/iscwebdev.png"
+              alt="Project 6"
+              class="w-full h-64 object-cover rounded-lg mb-4"
+            />
+            <h3 class="text-2xl font-semibold text-gray-800 mb-2">
+              Website Blog
+            </h3>
+            <p class="text-gray-600 mb-4">
+              Pembuatan platform blog dengan antarmuka yang sederhana dan mudah
+              digunakan untuk para penulis dan pembaca.
+            </p>
+            <a href="#" class="text-blue-500 hover:underline">Lihat Proyek</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-gray-50">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <h2 class="text-4xl font-semibold text-gray-800 mb-4">Kontak Kami</h2>
+          <p class="text-lg text-gray-600">
+            Kami siap membantu Anda dengan kebutuhan digital Anda. Jangan ragu
+            untuk menghubungi kami, kami akan segera merespons permintaan Anda.
+          </p>
+        </div>
+
+        <div class="max-w-xl mx-auto bg-white p-8 shadow-lg rounded-lg">
+          <form action="#" method="POST">
+            <div class="grid grid-cols-1 gap-6">
+              <!-- Name Field -->
+              <div>
+                <label for="name" class="text-gray-700 font-semibold"
+                  >Nama Lengkap</label
+                >
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  placeholder="Masukkan nama lengkap"
+                  required
+                />
+              </div>
+
+              <!-- Email Field -->
+              <div>
+                <label for="email" class="text-gray-700 font-semibold"
+                  >Email</label
+                >
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  placeholder="Masukkan alamat email"
+                  required
+                />
+              </div>
+
+              <!-- Message Field -->
+              <div>
+                <label for="message" class="text-gray-700 font-semibold"
+                  >Pesan</label
+                >
+                <textarea
+                  id="message"
+                  name="message"
+                  class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  rows="5"
+                  placeholder="Tulis pesan Anda di sini"
+                  required
+                ></textarea>
+              </div>
+
+              <!-- Submit Button -->
+              <div>
+                <button
+                  type="submit"
+                  class="w-full py-3 px-6 bg-blue-600 text-white rounded-lg text-lg font-semibold transition hover:bg-blue-700 focus:outline-none"
+                >
+                  Kirim Pesan
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <!-- Contact Information -->
+        <div class="mt-12 text-center">
+          <p class="text-lg text-gray-600 mb-4">
+            Atau Anda juga dapat menghubungi kami melalui informasi berikut:
+          </p>
+          <div class="space-y-4">
+            <p class="text-gray-600">
+              <i class="fas fa-phone-alt text-blue-600"></i>
+              <strong>Telepon:</strong> +62 812 3456 7890
+            </p>
+            <p class="text-gray-600">
+              <i class="fas fa-envelope text-blue-600"></i>
+              <strong>Email:</strong> fujiwaracreative@gmail.com
+            </p>
+            <p class="text-gray-600">
+              <i class="fas fa-map-marker-alt text-blue-600"></i>
+              <strong>Alamat:</strong> Jalan Digital No. 123, Jakarta, Indonesia
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      // Tunggu hingga DOM selesai dimuat sebelum menambahkan event listener
+      document.addEventListener("DOMContentLoaded", function () {
+        // Toggle mobile menu
+        document
+          .getElementById("menu-toggle")
+          .addEventListener("click", function () {
+            const menu = document.getElementById("mobile-menu");
+            menu.classList.toggle("hidden");
+          });
+      });
+      window.addEventListener("online", function () {
+        alert("You are now online!");
+      });
+      window.addEventListener("offline", function () {
+        window.location.href = "./offline.html";
+      });
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker
+          .register("./assets/js/sw.js")
+          .then((reg) => console.log("Service Worker registered!", reg))
+          .catch((err) =>
+            console.log("Service Worker failed to register", err)
+          );
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "Fujiwara Creative",
+        "url": "https://www.fujiwaracreative.com",
+        "logo": "https://www.fujiwaracreative.com/logo.png",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+621234567890",
+          "contactType": "customer service"
+        },
+        "sameAs": [
+          "https://www.facebook.com/FujiwaraCreative",
+          "https://www.instagram.com/FujiwaraCreative"
+        ]
+      }
+    </script>
+  </body>
+</html>

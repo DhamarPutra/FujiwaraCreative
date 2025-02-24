@@ -1,0 +1,7 @@
+*::-webkit-scrollbar {
+    display: none;
+}
+.struktur-organisasi img {
+    object-fit: cover;
+    aspect-ratio: 1/1;
+}
